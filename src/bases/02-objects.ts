@@ -1,4 +1,3 @@
-import { age } from './01-types';
 export const pokemonIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 pokemonIds.push(+'11'); // ✅ Una forma rápida de conversion de tipos
@@ -24,3 +23,9 @@ export const charmander:Pokemon = {
 
 console.log(bulbasaur);
 console.log(charmander);
+
+export const pokemons:Pokemon[] = [];
+// pokemons.push(1, 'string', bulbasaur); // En js no debería haber problema, pero en ts si
+
+pokemons.push(bulbasaur, charmander);
+console.log(pokemons);
