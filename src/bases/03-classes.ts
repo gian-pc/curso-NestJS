@@ -11,6 +11,14 @@ export class Pokemon {
     get imageUrl() {
         return `https://pokemon.com/${this.id}.png`;
     }
+
+    scream() {
+        console.log(`${this.name.toUpperCase()}!!!`);
+    }
+
+    speak() {
+        console.log(`${this.name}, ${this.name}!`);
+    }
 }
 
 export const charmander = new Pokemon(1, 'Charmander');
@@ -19,3 +27,5 @@ export const charmander = new Pokemon(1, 'Charmander');
 // charmander.name = 'Mew'; // ✅ Se puede reasignar el valor de una propiedad publica
 
 console.log(charmander);
+charmander.scream();
+charmander.speak();
