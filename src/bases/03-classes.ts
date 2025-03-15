@@ -1,5 +1,3 @@
-import { cha } from './03-classes';
-
 // Forma corta de declarar una clase
 export class Pokemon {
 
@@ -8,10 +6,11 @@ export class Pokemon {
         public name: string
     ) {}
 
-    get imageUrl() {
+    get imageUrl():string {
         return `https://pokemon.com/${this.id}.png`;
     }
 
+    // métodos
     scream() {
         console.log(`${this.name.toUpperCase()}!!!`);
     }
