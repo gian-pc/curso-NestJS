@@ -5,3 +5,4 @@
 3. Clases y forma abreviada
 4. Getters, métodos y THIS
 5. Métodos asincronos
+6. Colocar tipo de dato a respuestas http(genéricos)
