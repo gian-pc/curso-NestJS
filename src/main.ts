@@ -1,5 +1,7 @@
 
-import { charmander } from './bases/03-classes';
+// import { charmander } from './bases/03-classes';
+import { charmander } from './bases/04-injection';
+
 import './style.css'
 
 

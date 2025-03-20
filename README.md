@@ -6,3 +6,4 @@
 4. Getters, métodos y THIS
 5. Métodos asincronos
 6. Colocar tipo de dato a respuestas http(genéricos)
+7. Inyección de dependencias
