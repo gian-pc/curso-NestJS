@@ -1,5 +1,5 @@
 import { Move, PokeapiResponse } from '../interfaces/pokeapi-response.interface';
-import { PokeApiAdapter } from '../api/pokeApi.adapter';
+import { PokeApiAdapter, PokeApiFetchAdapter } from '../api/pokeApi.adapter';
 
 export class Pokemon {
 
@@ -34,8 +34,9 @@ export class Pokemon {
 
 }
 
-const pokeApi = new PokeApiAdapter();
+const pokeApiAxios = new PokeApiAdapter();
+const pokeApiFetch = new PokeApiFetchAdapter();
 
-export const charmander = new Pokemon( 4, 'Charmander', pokeApi);
+export const charmander = new Pokemon( 4, 'Charmander', pokeApiFetch );
 
 charmander.getMoves();
