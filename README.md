@@ -7,3 +7,4 @@
 5. Métodos asincronos
 6. Colocar tipo de dato a respuestas http(genéricos)
 7. Inyección de dependencias
+8. Genéricos + Sustitución de Liskov
